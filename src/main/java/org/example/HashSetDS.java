@@ -31,5 +31,10 @@ public class HashSetDS {
             System.out.print(it.next()+",");
         }
         System.out.println();
+
+        // Empty function
+        if(!set.isEmpty()){
+            System.out.println("Set is not empty");
+        }
     }
 }
