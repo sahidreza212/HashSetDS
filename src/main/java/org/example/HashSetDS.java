@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class HashSetDS {
     public static void main(String[] args) {
@@ -23,5 +24,12 @@ public class HashSetDS {
         }else {
             System.out.println("Absent");
         }
+
+        // Iterator
+        Iterator it = set.iterator();
+        while (it.hasNext()){
+            System.out.print(it.next()+",");
+        }
+        System.out.println();
     }
 }
