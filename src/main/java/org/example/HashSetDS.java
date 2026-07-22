@@ -14,5 +14,8 @@ public class HashSetDS {
         set.add(1);
 
         System.out.println(set);
+
+        // size of the set
+        System.out.println("Size is : "+set.size());
     }
 }
